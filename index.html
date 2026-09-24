@@ -93,7 +93,7 @@
         Gii is the cable and connector design-to-manufacturing specialist for energy-based medical devices. Bring us in early &mdash; we help define the requirements, prototype the solution, and de-risk it all the way to volume production.
       </p>
       <div class="hero-actions">
-        <a href="?inquiry=new-project#contact" class="btn btn-primary">Bring Us In Early</a>
+        <a href="#contact" class="btn btn-primary">Bring Us In Early</a>
         <a href="expertise.html" class="btn btn-outline">See How We Work</a>
       </div>
     </div>
@@ -146,7 +146,7 @@
             <li>IEC 60601 electrical safety for powered devices</li>
             <li>100% electrical test on every assembly</li>
           </ul>
-          <a class="pillar-link" href="#quality">See our quality systems &rarr;</a>
+          <a class="pillar-link" href="capabilities.html#quality">See our quality systems &rarr;</a>
         </div>
         <div class="pillar-card">
           <span class="pillar-num">03 &nbsp;·&nbsp; DUAL-REGION SUPPLY</span>
@@ -258,7 +258,7 @@
           <div class="cap-cta-content">
             <h3>Starting a New Program?</h3>
             <p>Share your requirements or early design &mdash; our engineers will review the interconnect with you before decisions get locked in.</p>
-            <a href="?inquiry=new-project#contact" class="btn btn-primary">Bring Us In Early</a>
+            <a href="#contact" class="btn btn-primary">Bring Us In Early</a>
           </div>
         </div>
 
@@ -1012,51 +1012,6 @@
     }
   </style>
 
-  <!-- ===== QUALITY / CERTIFICATIONS ===== -->
-  <section class="quality section-pad bg-light" id="quality">
-    <div class="container">
-      <div class="quality-grid">
-        <div class="quality-text">
-          <span class="section-eyebrow">Quality &amp; Compliance</span>
-          <h2 class="section-title">Quality Systems Built to Reduce Your Risk</h2>
-          <p>Compliance and cost efficiency are engineered together. As an FDA-registered, ISO 13485 manufacturer, our quality system is built specifically for medical cables and connectors.</p>
-          <p>Our ISO 8 clean room capacity meets sterile-assembly requirements, and every assembly is 100% electrically tested.</p>
-          <p>Assemblies for energy-based devices are engineered to IEC 60601 requirements, and every program is backed by full material traceability and the device history documentation your regulatory file depends on.</p>
-        </div>
-        <div class="quality-certs">
-          <div class="cert-card">
-            <div class="cert-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/></svg>
-            </div>
-            <h3>ISO 13485</h3>
-            <p>Medical device QMS — the standard for regulated cable and connector manufacturing.</p>
-          </div>
-          <div class="cert-card">
-            <div class="cert-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            </div>
-            <h3>FDA Registered</h3>
-            <p>Registered with the U.S. FDA, supporting 510(k) and PMA submissions.</p>
-          </div>
-          <div class="cert-card">
-            <div class="cert-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><path d="M3 9h18M9 21V9"/></svg>
-            </div>
-            <h3>Clean Room Manufacturing</h3>
-            <p>ISO 8 clean room capacity with in-house sterilization for sterile production.</p>
-          </div>
-          <div class="cert-card">
-            <div class="cert-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/></svg>
-            </div>
-            <h3>Traceability &amp; Documentation</h3>
-            <p>Full material traceability, device history records, and DHR/DHF documentation on every program.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ===== RESOURCES / BLOG ===== -->
   <section class="resources section-pad" id="resources">
     <div class="container">
@@ -1127,79 +1082,17 @@
 
         <div class="contact-form-wrap">
           <form class="contact-form" id="contact-form" novalidate>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="first-name">First Name <span class="required">*</span></label>
-                <input type="text" id="first-name" name="first_name" placeholder="Jane" required />
-              </div>
-              <div class="form-group">
-                <label for="last-name">Last Name <span class="required">*</span></label>
-                <input type="text" id="last-name" name="last_name" placeholder="Smith" required />
-              </div>
+            <div class="form-group">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" placeholder="Jane Smith" autocomplete="name" required />
             </div>
             <div class="form-group">
               <label for="email">Business Email <span class="required">*</span></label>
-              <input type="email" id="email" name="email" placeholder="jane@company.com" required />
+              <input type="email" id="email" name="email" placeholder="jane@company.com" autocomplete="email" required />
             </div>
             <div class="form-group">
-              <label for="company">Company</label>
-              <input type="text" id="company" name="company" placeholder="Your Company" />
-            </div>
-            <div class="form-group">
-              <label for="inquiry">Inquiry Type</label>
-              <select id="inquiry" name="inquiry">
-                <option value="">Select an inquiry type…</option>
-                <option value="new-project">New Cable / Connector Program</option>
-                <option value="cost-down-review">Cost-Down Review / DFM Analysis</option>
-                <option value="manufacturing-transfer">Manufacturing Transfer</option>
-                <option value="rfq">Request for Quote (RFQ)</option>
-                <option value="quality-docs">Quality Documentation</option>
-                <option value="partnerships">Partnerships</option>
-                <option value="careers">Careers</option>
-                <option value="other">Other</option>
-              </select>
-            </div>
-            <div class="form-row">
-              <div class="form-group">
-                <label for="device-category">Device Category</label>
-                <select id="device-category" name="device_category">
-                  <option value="">Select a category…</option>
-                  <option value="energy-based">Energy-Based Devices</option>
-                  <option value="diagnostic-imaging">Diagnostic Imaging</option>
-                  <option value="surgical-instruments">Surgical Instruments</option>
-                  <option value="robotics">Robotics &amp; Navigation</option>
-                  <option value="patient-monitoring">Patient Monitoring</option>
-                  <option value="pain-management">Pain Management</option>
-                  <option value="sports-medicine">Orthopedics</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              <div class="form-group">
-                <label for="project-stage">Project Stage</label>
-                <select id="project-stage" name="project_stage">
-                  <option value="">Select a stage…</option>
-                  <option value="early-design">Concept / Early Design</option>
-                  <option value="design-freeze">Design Freeze / Validation</option>
-                  <option value="transfer">Transfer from Another Manufacturer</option>
-                  <option value="volume-production">Volume Production</option>
-                  <option value="not-sure">Not Sure Yet</option>
-                </select>
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="annual-volume">Estimated Annual Volume</label>
-              <select id="annual-volume" name="annual_volume">
-                <option value="">Select a range…</option>
-                <option value="under-10k">Under 10,000 units</option>
-                <option value="10k-50k">10,000 – 50,000 units</option>
-                <option value="50k-250k">50,000 – 250,000 units</option>
-                <option value="250k-plus">250,000+ units</option>
-                <option value="not-sure">Not Sure Yet</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <label for="message">Message <span class="required">*</span></label>
-              <textarea id="message" name="message" rows="4" placeholder="Tell us about your project, timeline, and any specific requirements…" required></textarea>
+              <label for="message">Tell Us About Your Project <span class="required">*</span></label>
+              <textarea id="message" name="message" rows="5" placeholder="What are you building, and what do you need from the cable or connector? Where are you in development?" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-full" id="form-submit">
               <span class="btn-text">Send Message</span>
@@ -1234,7 +1127,7 @@
           <h4>Company</h4>
           <ul>
             <li><a href="#advantage">The Gii Advantage</a></li>
-            <li><a href="#quality">Quality &amp; Certifications</a></li>
+            <li><a href="capabilities.html#quality">Quality &amp; Certifications</a></li>
             <li><a href="#global">Global Reach</a></li>
             <li><a href="https://www.globalinterconnect.com/careers/" target="_blank" rel="noopener">Careers</a></li>
           </ul>

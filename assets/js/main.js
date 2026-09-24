@@ -115,7 +115,7 @@ if (form) {
         const hasFiles = [...data.values()].some(v => v instanceof File && v.size > 0);
         if (hasFiles) lines.push('', '(Please attach your drawings/specs to this email.)');
         const subject = (form.classList.contains('quote-form') ? 'Quote request' : 'Website inquiry') +
-          ' — ' + (data.get('company') || ((data.get('first_name') || '') + ' ' + (data.get('last_name') || '')).trim());
+          ' — ' + (data.get('company') || data.get('name') || ((data.get('first_name') || '') + ' ' + (data.get('last_name') || '')).trim());
         window.location.href = 'mailto:' + FORM_FALLBACK_EMAIL +
           '?subject=' + encodeURIComponent(subject) +
           '&body=' + encodeURIComponent(lines.join('\n'));
